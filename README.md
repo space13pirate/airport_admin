@@ -5,9 +5,7 @@
 
 <!--- Название проекта -->
 <div id="header" align="center">
-  <h1> Airport administrator's workstation project
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmF5anFkNWRxaWRueDZ3OTdzbDgwMnMyamNzbW41eTI3NHFsdXJqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/E4ISn3QdfIEeGJ9IrK/giphy.gif" height = "50"/>
-  </h1>
+  <h1> Airport administrator's workstation project</h1>
 </div>
 
 <!--- Создатели проекта -->
@@ -31,8 +29,8 @@
 ### :computer: About the project :
 
 <div id="info" align="justify">
-  <p style = "text-indent: 25px;">
-   The "Airport administrator's workstation" software package is designed to automate and manage operations and tasks related to the administration of a small airport and contains the following data:
+  <p style = "text-indent: 50px;">
+  The "Airport administrator's workstation" software package is designed to automate and manage operations and tasks related to the administration of a small airport and contains the following data:
    
    - monitoring and management of airport resources (aircraft and flights);
    - possibility of selling tickets of different categories;
@@ -40,12 +38,17 @@
   </p>
 </div>
 
+<!--- Гифка -->
+<div id="gif" align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmF5anFkNWRxaWRueDZ3OTdzbDgwMnMyamNzbW41eTI3NHFsdXJqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/E4ISn3QdfIEeGJ9IrK/giphy.gif" height = "100" vspace = "100"/>
+</div>
+
 <!--- Языки и инструменты -->
 ### :hammer_and_wrench: Languages and Tools :
 
 <div id="devicon">
-  <img src="https://svgshare.com/i/xwp.svg" title="PHP" alt="PHP" width="75" height="75" hspace="5"/>&nbsp;
-  <img src="https://svgshare.com/i/xwB.svg" title="HTML" alt="HTML" width="75" height="75" hspace="5"/>&nbsp;
-  <img src="https://svgshare.com/i/xy4.svg" title="CSS" alt="CSS" width="75" height="75" hspace="5"/>&nbsp;
-  <img src="https://svgshare.com/i/xyD.svg" title="JavaScript" alt="JavaScript" width="75" height="75" hspace="5"/>&nbsp;
+  <img src="https://svgshare.com/i/xwp.svg" title="PHP" alt="PHP" width="75" height="75" hspace="5" vspace = "200"/>&nbsp;
+  <img src="https://svgshare.com/i/xwB.svg" title="HTML" alt="HTML" width="75" height="75" hspace="5" vspace = "200"/>&nbsp;
+  <img src="https://svgshare.com/i/xy4.svg" title="CSS" alt="CSS" width="75" height="75" hspace="5" vspace = "200"/>&nbsp;
+  <img src="https://svgshare.com/i/xyD.svg" title="JavaScript" alt="JavaScript" width="75" height="75" hspace="5" vspace = "200"/>&nbsp;
 </div>
