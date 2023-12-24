@@ -1,0 +1,155 @@
+*{
+    font-family: 'Comfortaa', sans-serif;
+}
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #5c5b5b;
+}
+
+body {
+    background: #E0E1E1
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+    HEADER
+*/
+
+header {
+    background: #4682B4;
+    height: 70px;
+}
+
+header *{
+    color: #ffffff;
+}
+
+header h1 {
+    margin-top: 10px;
+}
+
+header h1 a{
+    color: white;
+}
+
+header h1 a:hover {
+    color: white;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+header ul li{
+    float: left;
+    position: relative;
+}
+
+header ul li a{
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+header ul li a:hover{
+    background: #4682B4;
+    transition: 0.5s;
+    color: white;
+}
+
+header ul li ul {
+    position: absolute; /* Абсолютное позиционирование относительно родителя */
+    display: none;      /* Скрыть вложенный список по умолчанию */
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 180px;
+    z-index: 111;
+}
+
+header ul li:hover ul {
+    display: block; /* Показать вложенный список при наведении */
+}
+
+header ul li ul li{
+    width: 100%;
+}
+
+header ul li ul li a{
+    padding: 10px;
+    background: white;
+    color: #4682B4;
+}
+
+/*
+    SLIDER
+*/
+
+.slider-title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.carousel{
+    height: 400px;
+}
+
+.carousel-inner, .carousel-item{
+    height: 400px;
+    border-radius: 4px;
+}
+
+
+.carousel-caption h5{
+    font-size: 2rem;
+    font-weight: 500;
+    background: #000000;
+    max-width: 100%;
+    padding: 0.3em;
+    opacity: 0.5;
+}
+
+.carousel-caption-hack {
+    position: absolute;
+    right: 0%;
+    bottom: 0.05rem;
+    left: 0%;
+    padding-top: 1.25rem;
+    padding-bottom: 0rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-caption h5 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.carousel-caption h5 a:hover{
+    text-decoration: underline;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+}
