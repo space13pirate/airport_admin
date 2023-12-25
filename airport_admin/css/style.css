@@ -1,8 +1,10 @@
-* {
+*{
     font-family: 'Comfortaa', sans-serif;
 }
+html, body {
+    height: 100%;
+}
 
-html,
 h1,
 h2,
 h3,
@@ -13,12 +15,22 @@ h6 {
 }
 
 body {
-    background: #E0E1E1
+    background: #E0E1E1;
+
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
 }
+
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Содержимое страницы должно заполнять весь экран, за исключением футера */
+.content {
+    padding-bottom: 50px; /* Высота футера */
 }
 
 /*
@@ -30,7 +42,7 @@ header {
     height: 70px;
 }
 
-header * {
+header *{
     color: #ffffff;
 }
 
@@ -38,7 +50,7 @@ header h1 {
     margin-top: 10px;
 }
 
-header h1 a {
+header h1 a{
     color: white;
 }
 
@@ -53,12 +65,12 @@ header ul {
     float: right;
 }
 
-header ul li {
+header ul li{
     float: left;
     position: relative;
 }
 
-header ul li a {
+header ul li a{
     display: block;
     font-size: 1.2rem;
     text-decoration: none;
@@ -66,7 +78,7 @@ header ul li a {
     padding: 20px;
 }
 
-header ul li a:hover {
+header ul li a:hover{
     background: #4682B4;
     transition: 0.5s;
     color: white;
@@ -74,7 +86,7 @@ header ul li a:hover {
 
 header ul li ul {
     position: absolute; /* Абсолютное позиционирование относительно родителя */
-    display: none; /* Скрыть вложенный список по умолчанию */
+    display: none;      /* Скрыть вложенный список по умолчанию */
     top: 70px;
     left: 0;
     right: 0;
@@ -86,11 +98,11 @@ header ul li:hover ul {
     display: block; /* Показать вложенный список при наведении */
 }
 
-header ul li ul li {
+header ul li ul li{
     width: 100%;
 }
 
-header ul li ul li a {
+header ul li ul li a{
     padding: 10px;
     background: white;
     color: #4682B4;
@@ -100,22 +112,22 @@ header ul li ul li a {
     SLIDER
 */
 
-.slider-title {
+.slider-title{
     text-align: center;
     padding-top: 10px;
 }
 
-.carousel {
+.carousel{
     height: 400px;
 }
 
-.carousel-inner, .carousel-item {
+.carousel-inner, .carousel-item{
     height: 400px;
     border-radius: 4px;
 }
 
 
-.carousel-caption h5 {
+.carousel-caption h5{
     font-size: 2rem;
     font-weight: 500;
     background: #000000;
@@ -136,13 +148,13 @@ header ul li ul li a {
     width: 100%;
 }
 
-.carousel-caption h5 a {
+.carousel-caption h5 a{
     color: #ffffff;
     text-decoration: none;
     font-weight: 500;
 }
 
-.carousel-caption h5 a:hover {
+.carousel-caption h5 a:hover{
     text-decoration: underline;
 }
 
@@ -156,8 +168,67 @@ header ul li ul li a {
 }
 
 /*
-FORMS
- */
+    FOOTER
+*/
+
+/* Стилизация футера */
+.footer-main {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #2F353B;
+}
+
+.footer-2 {
+    position: relative;
+    width: 100%;
+    background-color: #2F353B;
+    margin-top: 10px;
+}
+
+footer h5{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 5px;
+}
+
+footer p{
+    font-size: 0.75rem;
+    color: white;
+    opacity: 0.5;
+}
+
+footer a i {
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 5px;
+    padding-top: 3px;
+}
+
+footer li {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    opacity: 0.5;
+    padding-top: 12px;
+}
+
+footer a i:hover {
+    color: #4682B4;
+}
+
+/* Стилизация текста с авторскими правами */
+footer .copyright {
+    color: #aaaaaa;
+    font-size: 0.75rem;
+    padding-bottom: 10px;
+}
+
+
+/*
+    FORMS
+*/
 .reg_form h2 {
     text-align: center;
     margin: 30px 0;
