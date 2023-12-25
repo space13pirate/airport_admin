@@ -8,6 +8,11 @@
   <h1> Airport administrator's workstation project</h1>
 </div>
 
+<!--- Ссылка на сайт: -->
+### :computer: Link to the site :
+
+- :airplane: <a href="http://airport.lovestoblog.com/" title="AIRPORT_ADMIN demo">AIRPORT_ADMIN demo</a>
+
 <!--- Создатели проекта -->
 ### :computer: Project creators :
 
