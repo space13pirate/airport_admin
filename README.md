@@ -11,7 +11,7 @@
 <!--- Ссылка на сайт: -->
 ### :computer: Link to the site :
 
-- :airplane: <a href="http://airport.lovestoblog.com/" title="AIRPORT_ADMIN demo">AIRPORT_ADMIN demo</a>
+- :airplane: <a href="http://airport.lovestoblog.com/" title="AIRPORT_ADMIN demo">AIRPORT_ADMIN demo</a> (на настоящий момент желательно смотреть в режиме ингокнито)
 
 <!--- Создатели проекта -->
 ### :computer: Project creators :
