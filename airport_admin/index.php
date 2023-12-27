@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/014c37252f.js" crossorigin="anonymous"></script>
 
     <!-- Custom Styling-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -78,21 +78,21 @@
 <div id="carouselExampleDark" class="carousel carousel-dark slide">
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-            <img src="images/p_1.png" class="d-block w-100" alt="...">
+            <img src="assets/images/p_1.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5><a href="">Slide label</a></h5>
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-            <img src="images/p_2.png" class="d-block w-100" alt="...">
+            <img src="assets/images/p_2.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5><a href="">Slide label</a></h5>
                 <p>Some representative placeholder content for the second slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/p_3.png" class="d-block w-100" alt="...">
+            <img src="assets/images/p_3.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5><a href="">Slide label</a></h5>
                 <p>Some representative placeholder content for the third slide.</p>
