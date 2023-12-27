@@ -1,0 +1,29 @@
+<?php
+$driver = 'mysql';
+$host = 'localhost';
+$db_name = 'airport_admin';
+$db_user = 'root';
+$db_pass = 'mysql';
+$charset = 'utf8';
+$options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
+
+//// Для удалённого сервера
+//$driver = 'mysql';
+//$host = 'sql210.infinityfree.com';
+//$db_user = 'if0_35668581';
+//$db_pass = 'mLIPE5z2n1GLC';
+//$db_name = 'if0_35668581_puk_db';
+//$charset = 'utf8mb4';
+//$port = '3306';
+//$options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+//    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
+
+// Попытка подключения с использованием PDO
+try{
+    $pdo = new PDO(
+        "$driver:host=$host;dbname=$db_name;charset=$charset", $db_user, $db_pass, $options
+    );
+}catch (PDOException $e){
+    die("Ошибка подключения к базе данных: " . $e);
+}

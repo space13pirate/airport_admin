@@ -33,13 +33,15 @@ a {
     padding-bottom: 50px; /* Высота футера */
 }
 
+
 /*
     HEADER
 */
 
 header {
     background: #4682B4;
-    height: 70px;
+    height: 50px;
+    margin: 0;
 }
 
 header *{
@@ -47,11 +49,13 @@ header *{
 }
 
 header h1 {
-    margin-top: 10px;
+
 }
 
 header h1 a{
     color: white;
+    font-size: 1.75rem;
+    padding: 5px 0 0;
 }
 
 header h1 a:hover {
@@ -60,9 +64,10 @@ header h1 a:hover {
 
 header ul {
     margin: 0;
-    padding: 0;
+    padding: 12.5px 0 0;
     list-style-type: none;
     float: right;
+    width: 1000px;
 }
 
 header ul li{
@@ -71,11 +76,11 @@ header ul li{
 }
 
 header ul li a{
-    display: block;
-    font-size: 1.2rem;
+    display: inline;
+    font-size: 1.25rem;
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 5px 20px 0;
 }
 
 header ul li a:hover{
@@ -85,12 +90,13 @@ header ul li a:hover{
 }
 
 header ul li ul {
-    position: absolute; /* Абсолютное позиционирование относительно родителя */
-    display: none;      /* Скрыть вложенный список по умолчанию */
-    top: 70px;
+    position: absolute;
+    display: none;
+    top: 25px;
     left: 0;
     right: 0;
-    width: 180px;
+    margin-top: 0;
+    width: 255px;
     z-index: 111;
 }
 
@@ -98,14 +104,16 @@ header ul li:hover ul {
     display: block; /* Показать вложенный список при наведении */
 }
 
-header ul li ul li{
-    width: 100%;
+header ul li ul li {
+    width: 100%; /* Заставляет все li иметь одинаковую ширину */
 }
 
-header ul li ul li a{
-    padding: 10px;
+header ul li ul li a {
     background: white;
     color: #4682B4;
+    padding: 5px;
+    display: block; /* Растягивает ссылки на всю ширину li */
+    white-space: nowrap; /* Предотвращает перенос текста на новую строку */
 }
 
 /*
@@ -172,14 +180,14 @@ header ul li ul li a{
 */
 
 /* Стилизация футера */
-.footer-main {
+.footer-bottom {
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #2F353B;
 }
 
-.footer-2 {
+.footer-after {
     position: relative;
     width: 100%;
     background-color: #2F353B;
@@ -247,4 +255,13 @@ footer .copyright {
 .reg_form a:hover{
     margin-left: 55px;
     transition: all .3s;
+}
+
+/*
+    FORMS
+*/
+
+form div.err{
+    text-align: center;
+    color: darkred;
 }

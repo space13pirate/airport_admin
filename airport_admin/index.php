@@ -1,3 +1,7 @@
+<?php
+include "app/database/db.php";
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,7 +16,7 @@
     <script src="https://kit.fontawesome.com/014c37252f.js" crossorigin="anonymous"></script>
 
     <!-- Custom Styling-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -22,59 +26,10 @@
 </head>
 <body>
 
+<!-- Блок хедера -->
+<?php include("app/include/header-user.php"); ?>
 
-<header class="container-fluid">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-4">
-                <h1>
-                    <a href="/">Admin</a>
-                </h1>
-            </div>
-
-            <nav class="col-8">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-plane"></i>
-                            Рейсы
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-passport"></i>
-                            Пассажиры
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-ticket"></i>
-                            Билеты
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-user"></i>
-                            Профиль
-                        </a>
-                        <ul>
-                            <li><a href="#">Панель</a></li>
-                            <li><a href="log.html">Выйти</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
-    </div>
-</header>
-
-
-<!-- Блок карусел - START -->
+<!-- Блок карусели - START -->
 <div id="carouselExampleDark" class="carousel carousel-dark slide">
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
@@ -110,41 +65,8 @@
 </div>
 <!-- Блок карусели - END-->
 
-
-<!-- Блок футера - START -->
-<footer class="footer-main">
-    <div class="container">
-        <div class="row py-4">
-            <!-- Информация о сайте -->
-            <div class="col-lg-4">
-                <h5>О проекте</h5>
-                <p>Программный комплекс «АРМ администратора аэропорта» предназначен для автоматизации и управления операциями и задачами, связанными с администрированием небольшого аэропорта.</p>
-            </div>
-
-            <!-- Информация о создателях -->
-            <div class="col-lg-4">
-                <h5>Авторы проекта</h5>
-                <p>Анастасия Черемисова и Арина Наймушина, студентки Казанского Государственного Энергетического Университета (КГЭУ)</p>
-            </div>
-
-            <!-- Социальные сети -->
-            <div class="col-lg-4">
-                <h5>Связаться с авторами</h5>
-                <a href="https://t.me/space13pirate" class="text-white me-2"><i class="fa-brands fa-telegram"></i></a>
-                <a href="https://t.me/Arrriannaa" class="text-white me-2"><i class="fa-brands fa-telegram"></i></a>
-                <a href="https://github.com/space13pirate/airport_admin" class="text-white me-2"><i class="fa-brands fa-github"></i></a>
-                <li>Казань, Татарстан</li>
-            </div>
-        </div>
-
-        <!-- Авторские права -->
-        <div class="text-center copyright">
-            © 2023 AIRPORT_ADMIN. Все права защищены
-        </div>
-
-    </div>
-</footer>
-<!-- Блок футера - END -->
+<!-- Блок футера -->
+<?php include("app/include/footer-bottom.php"); ?>
 
 </body>
 </html>
