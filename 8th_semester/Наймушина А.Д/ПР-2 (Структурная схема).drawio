@@ -1,0 +1,175 @@
+<mxfile host="Electron" modified="2024-02-22T09:19:44.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="H5f8rYGv-TXz2g4O22E2" version="23.0.2" type="device">
+  <diagram name="Структурная схема" id="G3wDKOlEaVvoG8C0hLZy">
+    <mxGraphModel dx="1500" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kSfKCj67Q_mOm9vN-RSR-1" value="Информационная система администратора аэропорта" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Times New Roman;fontStyle=1;strokeWidth=3;fillColor=#FFFFFF;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="479" y="40" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kSfKCj67Q_mOm9vN-RSR-3" value="Подсистема «Бронирование и продажа авиабилетов»" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Times New Roman;fontStyle=1;strokeWidth=3;fillColor=#FFFFFF;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="119" y="200" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kSfKCj67Q_mOm9vN-RSR-4" value="Подсистема «Система управления рейсами»" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Times New Roman;fontStyle=1;strokeWidth=3;fillColor=#FFFFFF;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="479" y="200" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kSfKCj67Q_mOm9vN-RSR-5" value="Подсистема «Основная панель администратора»&lt;br/&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Times New Roman;fontStyle=1;strokeWidth=3;fillColor=#FFFFFF;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="839" y="200" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kSfKCj67Q_mOm9vN-RSR-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" source="kSfKCj67Q_mOm9vN-RSR-4" target="kSfKCj67Q_mOm9vN-RSR-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="360" as="sourcePoint" />
+            <mxPoint x="689" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSfKCj67Q_mOm9vN-RSR-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" source="kSfKCj67Q_mOm9vN-RSR-3" target="kSfKCj67Q_mOm9vN-RSR-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="360" as="sourcePoint" />
+            <mxPoint x="689" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSfKCj67Q_mOm9vN-RSR-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" source="kSfKCj67Q_mOm9vN-RSR-5" target="kSfKCj67Q_mOm9vN-RSR-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="360" as="sourcePoint" />
+            <mxPoint x="689" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="kSfKCj67Q_mOm9vN-RSR-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="640" as="sourcePoint" />
+            <mxPoint x="619" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="kSfKCj67Q_mOm9vN-RSR-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="619" y="560" as="sourcePoint" />
+            <mxPoint x="622" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="kSfKCj67Q_mOm9vN-RSR-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979" y="800" as="sourcePoint" />
+            <mxPoint x="1019" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-4" value="Бронирование&lt;br style=&quot;font-size: 20px;&quot;&gt;билетов" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="49" y="330" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-5" value="Продажа билетов" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="49" y="420" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-9" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="360" as="sourcePoint" />
+            <mxPoint x="269" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-10" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="440" as="sourcePoint" />
+            <mxPoint x="229" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-12" value="Учёт рейсов как прибывающих и отправляемых" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="299" y="320" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-13" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="619" y="360" as="sourcePoint" />
+            <mxPoint x="629" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-14" value="Отмена билетов" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="49" y="500" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-15" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="520" as="sourcePoint" />
+            <mxPoint x="229" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-16" value="Просмотр деталей&lt;br&gt;бронирования" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="49" y="570" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-17" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="600" as="sourcePoint" />
+            <mxPoint x="269" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-18" value="Указание проблем с рейсами" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="409" y="410" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-19" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="619" y="440" as="sourcePoint" />
+            <mxPoint x="629" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-20" value="Проверка статуса рейса" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="409" y="490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-21" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="619" y="520" as="sourcePoint" />
+            <mxPoint x="629" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-22" value="Просмотр общих записей об общем количестве пассажиров" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="699" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-23" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979" y="360" as="sourcePoint" />
+            <mxPoint x="989" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-25" value="Просмотр общих записей о рейсах" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="699" y="410" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-26" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979" y="440" as="sourcePoint" />
+            <mxPoint x="989" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-27" value="Просмотр общих записей об авиакомпаниях" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="699" y="490" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-28" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979" y="520" as="sourcePoint" />
+            <mxPoint x="989" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-30" value="Просмотр записей&lt;br&gt;о сегодняшних рейсах" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="699" y="570" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-31" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979" y="600" as="sourcePoint" />
+            <mxPoint x="989" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-32" value="Просмотр записей&lt;br&gt;о вылетающих-прибывающих&lt;br&gt;рейсах" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="649" y="650" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-33" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979" y="680" as="sourcePoint" />
+            <mxPoint x="989" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-34" value="Просмотр записей&lt;br&gt;о проблемах с рейсами" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontStyle=1;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="699" y="730" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1TcTewaZngnqcufQuU0-35" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" target="V1TcTewaZngnqcufQuU0-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979" y="760" as="sourcePoint" />
+            <mxPoint x="989" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
